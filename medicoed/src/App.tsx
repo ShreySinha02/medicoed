@@ -16,7 +16,6 @@ function App() {
         </div>
         <div className="m-4 p-4 border-2 rounded-lg h-[90%] shadow-gray-400 shadow-lg flex flex-col  ">
           <div className="flex-1 overflow-hidden">
-            {/* Make this part scrollable */}
             <Chats messages={messages} />
           </div>
           <div className=" md:basis-60 lg:basis-32 flex">

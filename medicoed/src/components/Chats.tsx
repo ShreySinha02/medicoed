@@ -7,7 +7,7 @@ function Chats({ messages }: { messages: Message[] }) {
     });
   };
 
-  // Function to save message as a text file
+ 
   const handleSave = (text: string) => {
     const blob = new Blob([text], { type: "text/plain" });
     const link = document.createElement("a");
